@@ -8,4 +8,4 @@ RUN mkdir -p /tmp/download && \
     group add -g 999 docker && \
     usermod -aG docker jenkins
 
-user jenkins
+USER jenkins
